@@ -1,0 +1,617 @@
+fileFormatVersion: 2
+guid: 9409bebe1f940d64ebb3807d4bdc2b57
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_0
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1023
+        width: 299
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d99abe1fae5634d99af6436050237f
+      internalID: -1576342702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_1
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1002
+        width: 286
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a56c06a9cc961418f75245deae77a2
+      internalID: -1370656120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_2
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1002
+        width: 299
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c4b5ac7c4bf6541be5ecb6addad0a2
+      internalID: -1299692858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_3
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 956
+        width: 316
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85842ced9b850a4895ed8c8b138b802
+      internalID: -1007865891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_4
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 993
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab7378f0459d5540928740e08643ee5
+      internalID: 1833893611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_5
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 994
+        width: 373
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966343fc67738704c9e35b2c5103b055
+      internalID: -1269816822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_6
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 709
+        width: 408
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8bd3191ea640c45a0a3a0d108c9b2a
+      internalID: -497621099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_7
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 771
+        width: 72
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e800ab5c6fefeff478eb1606c2b04100
+      internalID: 236235831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_8
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 793
+        width: 55
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5262477076dfe3547bcaf7f91535f962
+      internalID: 1887575668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_9
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 795
+        width: 60
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470f0a3bd7575c647b97be0e03b6ad95
+      internalID: 1868278394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_10
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 793
+        width: 71
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ecb33ae5558fa419be524f47036e1d
+      internalID: -1350388105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_11
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 795
+        width: 97
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a951002328b81449b5cee258f36f537
+      internalID: -1582900044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_12
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 795
+        width: 97
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70306ec5ec67540459dfaef03f96b546
+      internalID: -1176044089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_13
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 795
+        width: 97
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9f06ecd8dc7a5418d5e257fb0eac8e
+      internalID: 1781785370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_14
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 705
+        width: 156
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c369158c5904995449098a345b59515e
+      internalID: 247072168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_15
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 706
+        width: 373
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb6229bc5702ca43adedbb326194222
+      internalID: 767831586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_16
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 415
+        width: 408
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4046c7f395017b04387f56353843eaec
+      internalID: -486984063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_17
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 104
+        width: 878
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb71b0f31f9496442ae9f253aa35590d
+      internalID: 855687839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_18
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 413
+        width: 211
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a1d6038e3bfb54f8924f3fbfd2c6e2
+      internalID: -958791502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_19
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 413
+        width: 212
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75312c382df43664891764be02ac8195
+      internalID: 494679417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_20
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 121
+        width: 408
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e380053d512e04eb9fce1165f11e1c
+      internalID: -1469045777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_21
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 147
+        width: 211
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5155d28bc16b5e41a80dcdfb2d9fd1f
+      internalID: 2016105599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_22
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 147
+        width: 212
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd56fcbc1f55c7e43bb26006e0b39e8b
+      internalID: -954205999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1024c1d38e4420a45bc02e0380d7c90b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_0: -1576342702
+      design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_1: -1370656120
+      design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_10: -1350388105
+      design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_11: -1582900044
+      design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_12: -1176044089
+      design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_13: 1781785370
+      design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_14: 247072168
+      design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_15: 767831586
+      design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_16: -486984063
+      design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_17: 855687839
+      design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_18: -958791502
+      design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_19: 494679417
+      design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_2: -1299692858
+      design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_20: -1469045777
+      design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_21: 2016105599
+      design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_22: -954205999
+      design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_3: -1007865891
+      design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_4: 1833893611
+      design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_5: -1269816822
+      design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_6: -497621099
+      design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_7: 236235831
+      design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_8: 1887575668
+      design-for-kompletter-satz-von-popup-spielen-symbolen-fenstern-und-elementen-fuer-das-erstellen-mittelalterlicher-rpg-videospiele_9: 1868278394
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

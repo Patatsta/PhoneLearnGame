@@ -1,0 +1,1123 @@
+fileFormatVersion: 2
+guid: cebccac367db5e546bdf45b1912f507e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 547
+        width: 538
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ebd7c837fdaae44903f2bba890fa42
+      internalID: -1817441849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_1
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 792
+        width: 135
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9812054dd1790924880ba00cba3d5b45
+      internalID: -1637073045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_2
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 792
+        width: 134
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3edea2b5070c346889083cc5cc1637
+      internalID: -1281079595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_3
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 792
+        width: 135
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d315d0de100c44bb31558cbe12a190
+      internalID: -1675942410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_4
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 792
+        width: 135
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1fbe2f03184c84ab72291d456dc02d
+      internalID: -823771435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_5
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 792
+        width: 135
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156dcc5e9731aee44998ceddd92b8c50
+      internalID: -1450626403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_6
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 792
+        width: 135
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212c215a68f797b408d505ba784824da
+      internalID: 684879435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_7
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 792
+        width: 342
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2d4f4be67aa3c45a0c51827bb8d9e7
+      internalID: 599870351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_8
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 623
+        width: 135
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d946b70eec418594fbe1bc80ee07abe7
+      internalID: 104185610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_9
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 623
+        width: 134
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c8c879b92be4142a72685573923e09
+      internalID: -1367242638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_10
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 623
+        width: 135
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbd9482ada8efb4c8bef8c6b8e3697e
+      internalID: 509049949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_11
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 623
+        width: 134
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944e5831dddb1434aac3669ea2307590
+      internalID: 921091536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_12
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 624
+        width: 135
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeaa649781e5ee749a51c9fdb6700ca3
+      internalID: 1891796660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_13
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 624
+        width: 135
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ae1073c0b808046bb5624d47451a27
+      internalID: -279777987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_14
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 647
+        width: 387
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c7198a95fc74249a56c56e8f199e39
+      internalID: -37831076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_15
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 441
+        width: 532
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b070e28d795c134e89a61d18011ca36
+      internalID: -601647178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_16
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 452
+        width: 140
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9eba904103fa9459f3a5cacbfee82c
+      internalID: -1085935796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_17
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 452
+        width: 141
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd66ba04b9d3ef4da6ec4083f010a04
+      internalID: 853761233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_18
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 452
+        width: 140
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424bacc7fc882194eb95618450142fc2
+      internalID: 439007848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_19
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 452
+        width: 140
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f326c210ce4fbb94595e2fc98c6a5931
+      internalID: 1565199558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_20
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 452
+        width: 141
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2baab101d14953948ae6788fcbdd1c5f
+      internalID: -1428470245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_21
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 452
+        width: 140
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f68252d08b66447926780aaedba732
+      internalID: -180573394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_22
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 505
+        width: 341
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 26, y: 22, z: 29, w: 26}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5bd1e00496582a4092fab0dd22d158a
+      internalID: 2079160453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_23
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 365
+        width: 531
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0e8e57c8cac964bbdfa81ac9707bd0
+      internalID: -35319930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_24
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 285
+        width: 140
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e12819b9d1d4d47b1d3b3a48dcb7c2
+      internalID: 499423415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_25
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 285
+        width: 140
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5bd49da5490d843b45237553f1a2cc
+      internalID: 1845592511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_26
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 285
+        width: 140
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da89f5d844831374885058be019514a4
+      internalID: 268977085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_27
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 285
+        width: 140
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5e811426d325b4eab501b55d3fe61c
+      internalID: -288462461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_28
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 283
+        width: 141
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb713cf117b2f9e4e8442231ba9fe8b6
+      internalID: -654228625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_29
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 283
+        width: 140
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a148534d83d88c4689faddc67879fb6
+      internalID: 1932927342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_30
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 359
+        width: 343
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81055a88be47664ba0fdd67bbc68e45
+      internalID: -686065346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_31
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 289
+        width: 531
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1000a7f5ed02cf040a7234229991878e
+      internalID: -1665123278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_32
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 214
+        width: 387
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da55cf010f5d32c49a21c633a3e798ff
+      internalID: -1195079706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_33
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 214
+        width: 531
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a59905833e2c442968ffb18f039b20
+      internalID: 1569950506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_34
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 120
+        width: 145
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fd40023f97ce0479755c5c429bb19b
+      internalID: 750524063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_35
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 118
+        width: 145
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa45f602226032242a81f6bd7e129784
+      internalID: -682992035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_36
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 130
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed0eaad7084ed74299528169c226d62
+      internalID: -564653464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_37
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 125
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f0ca7730c671043960e55b42b333c4
+      internalID: -243649705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_38
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 157
+        width: 92
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1dd945e09a9d94bb296acfeca97aa2
+      internalID: 1866403392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_39
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 138
+        width: 532
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2582ed321697bc040b6a3a81f29c8f68
+      internalID: 2091294300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_40
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 63
+        width: 145
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bca7cd3ba834d64c9b2885ec2d97d3b
+      internalID: -1506100868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_41
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 63
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472e4fdac97a4cf42b725523601a8f15
+      internalID: -1149384796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_42
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 63
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed336e2de175bcd4399fb4422b80c406
+      internalID: 1209645533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_43
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 63
+        width: 94
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea12477a65a6e914682b8ca82ac2eb6d
+      internalID: -1869925908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_44
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 69
+        width: 341
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e341fefc55ced7643aaa340e1f3e4341
+      internalID: -1619523179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eis-knoepfe-fuer-ui-spiel_45
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 62
+        width: 531
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcbc3f5f1b7a1a43b48726b10d17fe3
+      internalID: -516885110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ecfd8290b80b27a408d7ac412256f3a1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      eis-knoepfe-fuer-ui-spiel_0: -1817441849
+      eis-knoepfe-fuer-ui-spiel_1: -1637073045
+      eis-knoepfe-fuer-ui-spiel_10: 509049949
+      eis-knoepfe-fuer-ui-spiel_11: 921091536
+      eis-knoepfe-fuer-ui-spiel_12: 1891796660
+      eis-knoepfe-fuer-ui-spiel_13: -279777987
+      eis-knoepfe-fuer-ui-spiel_14: -37831076
+      eis-knoepfe-fuer-ui-spiel_15: -601647178
+      eis-knoepfe-fuer-ui-spiel_16: -1085935796
+      eis-knoepfe-fuer-ui-spiel_17: 853761233
+      eis-knoepfe-fuer-ui-spiel_18: 439007848
+      eis-knoepfe-fuer-ui-spiel_19: 1565199558
+      eis-knoepfe-fuer-ui-spiel_2: -1281079595
+      eis-knoepfe-fuer-ui-spiel_20: -1428470245
+      eis-knoepfe-fuer-ui-spiel_21: -180573394
+      eis-knoepfe-fuer-ui-spiel_22: 2079160453
+      eis-knoepfe-fuer-ui-spiel_23: -35319930
+      eis-knoepfe-fuer-ui-spiel_24: 499423415
+      eis-knoepfe-fuer-ui-spiel_25: 1845592511
+      eis-knoepfe-fuer-ui-spiel_26: 268977085
+      eis-knoepfe-fuer-ui-spiel_27: -288462461
+      eis-knoepfe-fuer-ui-spiel_28: -654228625
+      eis-knoepfe-fuer-ui-spiel_29: 1932927342
+      eis-knoepfe-fuer-ui-spiel_3: -1675942410
+      eis-knoepfe-fuer-ui-spiel_30: -686065346
+      eis-knoepfe-fuer-ui-spiel_31: -1665123278
+      eis-knoepfe-fuer-ui-spiel_32: -1195079706
+      eis-knoepfe-fuer-ui-spiel_33: 1569950506
+      eis-knoepfe-fuer-ui-spiel_34: 750524063
+      eis-knoepfe-fuer-ui-spiel_35: -682992035
+      eis-knoepfe-fuer-ui-spiel_36: -564653464
+      eis-knoepfe-fuer-ui-spiel_37: -243649705
+      eis-knoepfe-fuer-ui-spiel_38: 1866403392
+      eis-knoepfe-fuer-ui-spiel_39: 2091294300
+      eis-knoepfe-fuer-ui-spiel_4: -823771435
+      eis-knoepfe-fuer-ui-spiel_40: -1506100868
+      eis-knoepfe-fuer-ui-spiel_41: -1149384796
+      eis-knoepfe-fuer-ui-spiel_42: 1209645533
+      eis-knoepfe-fuer-ui-spiel_43: -1869925908
+      eis-knoepfe-fuer-ui-spiel_44: -1619523179
+      eis-knoepfe-fuer-ui-spiel_45: -516885110
+      eis-knoepfe-fuer-ui-spiel_5: -1450626403
+      eis-knoepfe-fuer-ui-spiel_6: 684879435
+      eis-knoepfe-fuer-ui-spiel_7: 599870351
+      eis-knoepfe-fuer-ui-spiel_8: 104185610
+      eis-knoepfe-fuer-ui-spiel_9: -1367242638
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
