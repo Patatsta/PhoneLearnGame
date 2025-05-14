@@ -16,6 +16,8 @@ public class LoginScript : MonoBehaviour
 
     private void Start()
     {
+        _login.SetActive(true);
+        _create.SetActive(false);
         _username = null;
         _password = null;
         _debugText.text = "";
