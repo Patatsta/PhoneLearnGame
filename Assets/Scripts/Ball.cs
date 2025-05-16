@@ -1,0 +1,61 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Ball : MonoBehaviour
+{
+    private Rigidbody2D rb2d;
+    private bool isDragging = false;
+    private Vector2 mousePosition;
+    private Vector2 dragStartPosition;
+
+    public float maxDistance = 5f;  
+    public float forceMultiplier = 10f;  
+
+    void Awake()
+    {
+        rb2d = GetComponent<Rigidbody2D>();
+        rb2d.gravityScale = 0f;
+    }
+
+    void Update()
+    {
+     
+        if (Input.GetMouseButtonDown(0)) 
+        {
+          
+            Vector2 mouseWorldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            if (GetComponent<Collider2D>().OverlapPoint(mouseWorldPosition))
+            {
+                isDragging = true;
+                dragStartPosition = mouseWorldPosition;  
+                
+            }
+        }
+
+        if (isDragging)
+        {
+         
+            mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 direction = mousePosition - dragStartPosition;
+            float distance = Mathf.Min(direction.magnitude, maxDistance); 
+            rb2d.position = dragStartPosition + direction.normalized * distance;
+
+           
+            if (Input.GetMouseButtonUp(0))
+            {
+                Vector2 force = (mousePosition - dragStartPosition) * - forceMultiplier; 
+                rb2d.AddForce(force, ForceMode2D.Impulse); 
+                rb2d.gravityScale = 1f;  
+                isDragging = false; 
+           
+            }
+        }
+    }
+
+    public void ResetBall()
+    {
+        rb2d.velocity = Vector2.zero;
+        rb2d.gravityScale = 0f;
+    }
+}
