@@ -33,7 +33,6 @@ public class LoginScript : MonoBehaviour
         _create.SetActive(false);
         _debugText.text = "";
 
-        // Lade gespeicherte Accounts, falls vorhanden
         if (File.Exists(filePath))
         {
             string json = File.ReadAllText(filePath);
@@ -107,6 +106,8 @@ public class LoginScript : MonoBehaviour
                         gameHScoreText[i].text = _currentAccount.highScores[i].ToString();
                     }
                     _debugText.text = "";
+                    _InputFields[2].text = "";
+                    _InputFields[3].text = "";
                     _gameManager.LoginSuccess();
                     return;
                 }

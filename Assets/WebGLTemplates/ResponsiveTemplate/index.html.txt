@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>%UNITY_WEB_NAME%</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: black;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    canvas {
+      width: 100% !important;
+      height: auto !important;
+    }
+  </style>
+</head>
+<body>
+  <div id="unityContainer" style="width: 100%; height: 100%;"></div>
+  <script src="%UNITY_WEBGL_LOADER_URL%"></script>
+  <script>
+    createUnityInstance(document.querySelector("#unityContainer"), {
+      dataUrl: "%UNITY_WEBGL_DATA_URL%",
+      frameworkUrl: "%UNITY_WEBGL_FRAMEWORK_URL%",
+      codeUrl: "%UNITY_WEBGL_CODE_URL%",
+      streamingAssetsUrl: "StreamingAssets",
+      companyName: "%COMPANY_NAME%",
+      productName: "%PRODUCT_NAME%",
+      productVersion: "%PRODUCT_VERSION%"
+    });
+  </script>
+</body>
+</html>
+

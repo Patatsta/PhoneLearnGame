@@ -9,9 +9,11 @@ public class Ball : MonoBehaviour
     private Vector2 mousePosition;
     private Vector2 dragStartPosition;
 
-    public float maxDistance = 5f;  
-    public float forceMultiplier = 10f;  
+    [SerializeField] private float maxDistance = 5f;  
+    [SerializeField] private float maxForce = 10f;
+    [SerializeField] private float minForce;
 
+    [SerializeField] private AudioClip _clip;
     void Awake()
     {
         rb2d = GetComponent<Rigidbody2D>();
@@ -44,13 +46,26 @@ public class Ball : MonoBehaviour
            
             if (Input.GetMouseButtonUp(0))
             {
-                Vector2 force = (mousePosition - dragStartPosition) * - forceMultiplier; 
-                rb2d.AddForce(force, ForceMode2D.Impulse); 
-                rb2d.gravityScale = 1f;  
-                isDragging = false; 
-           
+                Vector2 directionshot = (mousePosition - dragStartPosition).normalized;
+                float pullAmount = Mathf.Clamp((mousePosition - dragStartPosition).magnitude, 0f, maxDistance);
+                float t = pullAmount / maxDistance;
+
+      
+                
+                float finalForceMagnitude = Mathf.Lerp(minForce, maxForce, t);
+
+                Vector2 force = directionshot * finalForceMagnitude * -1f;
+                rb2d.AddForce(force, ForceMode2D.Impulse);
+                rb2d.gravityScale = 1f;
+                isDragging = false;
+
             }
         }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        SoundManager.Instance.PlaySFX(_clip);
     }
 
     public void ResetBall()

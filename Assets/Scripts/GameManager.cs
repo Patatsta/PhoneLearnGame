@@ -23,6 +23,15 @@ public class GameManager : MonoBehaviour
 
     private GameAbstract _latestgame;
     [SerializeField] LoginScript _loginScript;
+
+    private enum GameMode
+    {
+        game1,
+        game2,
+        game3,
+        empty
+    }
+    [SerializeField] private GameMode _mode;
     private void Start()
     {
         
@@ -31,9 +40,27 @@ public class GameManager : MonoBehaviour
         _game2.Setup(this, _scoreText, _timerText);
         _game3.Setup(this, _scoreText, _timerText);
 
-        _currentState = _gameEmpty;
-        
-   
+        switch (_mode)
+        {
+            case GameMode.game1:
+                _currentState = _game1;
+                break;
+            case GameMode.game2:
+                _currentState = _game2;
+                break;
+            case GameMode.game3:
+                _currentState = _game3;
+                break;
+            case GameMode.empty:
+                _currentState = _gameEmpty;
+                break;
+             default:
+                _currentState = _gameEmpty;
+                break;
+        }
+
+        _currentState.Enter();
+
     }
     public void ChangeState(GameAbstract newState)
     {
@@ -84,6 +111,7 @@ public class GameManager : MonoBehaviour
 
     public void ExitGame()
     {
+        _currentGameCanvas.SetActive(false);
         ChangeState(_gameEmpty);
     }
 

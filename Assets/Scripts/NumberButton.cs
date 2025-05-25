@@ -7,6 +7,7 @@ using UnityEngine;
 public class NumberButton : MonoBehaviour
 {
     [SerializeField] private int _number;
+   
     private int _posIndex;
 
     public static event Action<int, NumberButton> OnButtonClick;

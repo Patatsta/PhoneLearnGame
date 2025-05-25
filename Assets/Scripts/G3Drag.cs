@@ -49,7 +49,6 @@ public class G3Drag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
 
         if (!_wasDroppedCorrectly)
         {
-            // Falls nicht korrekt abgelegt: zurück zur Ausgangsposition
             transform.position = _startPosition;
             transform.SetParent(_originalParent);
         }

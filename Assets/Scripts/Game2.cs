@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Game2 : GameAbstract
 {
@@ -16,15 +17,20 @@ public class Game2 : GameAbstract
     private List<NumberButton> _buttons = new List<NumberButton>();
 
     [SerializeField] private float _maxTimer = 0;
-    [SerializeField] private TMP_Text _upDown;
-
+    [SerializeField] private GameObject _upDown;
+    [SerializeField] private GameObject _Downup;
+    [SerializeField] private TMP_Text _text;
     private bool _isUp;
   
 
     [SerializeField] private GameObject _gameCanvas;
 
+
+    [SerializeField] private AudioClip _wrongClip, _correcClip;
+  
     public override void Enter()
     {
+        SoundManager.Instance.PlayGameMusic();
         gameManager.SetCurGameCanvas(_gameCanvas, this);
         NumberButton.OnButtonClick += NumberSelected;
         _buttonIndex = 1;
@@ -77,9 +83,13 @@ public class Game2 : GameAbstract
 
         if (isCorrect)
         {
-            
+            SoundManager.Instance.PlaySFX(_correcClip);
             _score += 10;
             _scoreText.text = _score.ToString();
+        }
+        else
+        {
+            SoundManager.Instance.PlaySFX(_wrongClip);
         }
 
         CreateButton();
@@ -119,6 +129,7 @@ public class Game2 : GameAbstract
 
     public override void Exit()
     {
+        SoundManager.Instance.PlayMenuMusic();
         NumberButton.OnButtonClick -= NumberSelected;
         foreach (NumberButton but in _buttons)
         {
@@ -136,12 +147,16 @@ public class Game2 : GameAbstract
         int r = UnityEngine.Random.Range(0, 2);
         if(r == 0)
         {
-            _upDown.text = "Up";
+            _text.text = "Click the HIGHEST number";
+            _upDown.SetActive(true);
+            _Downup.SetActive(false);
             _isUp = true;
         }
         else
         {
-            _upDown.text = "Down";
+            _text.text = "Click the LOWEST number";
+            _upDown.SetActive(false);
+            _Downup.SetActive(true);
             _isUp = false;
         }
     }

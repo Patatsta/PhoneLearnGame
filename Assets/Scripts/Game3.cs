@@ -16,15 +16,17 @@ public class Game3 : GameAbstract
 
     public List<G3Drag> answerButtons; 
 
-    private int correctSecondNumber; 
+    private int correctSecondNumber;
 
-
+    [SerializeField] private AudioClip _correctClip;
+    [SerializeField] private AudioClip _incorrectClip;
 
     [SerializeField] private float _maxTimer = 0;
     [SerializeField] private GameObject _gameCanvas;
 
     public override void Enter()
     {
+        SoundManager.Instance.PlayGameMusic();
         gameManager.SetCurGameCanvas(_gameCanvas, this);
         _score = 0;
         _scoreText.text = _score.ToString();
@@ -38,6 +40,7 @@ public class Game3 : GameAbstract
     }
     public override void Exit()
     {
+        SoundManager.Instance.PlayMenuMusic();
     }
 
     public void GenerateNewTask()
@@ -105,7 +108,13 @@ public class Game3 : GameAbstract
 
     public void AddScore()
     {
+        SoundManager.Instance.PlaySFX(_correctClip);
         _score += 10;
         _scoreText.text = _score.ToString();
+    }
+
+    public void WrongAnswer()
+    {
+        SoundManager.Instance.PlaySFX(_incorrectClip);
     }
 }

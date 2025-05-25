@@ -28,6 +28,10 @@ public class G3Drop : MonoBehaviour, IDropHandler
         {
             _game3.AddScore();
         }
+        else
+        {
+            _game3.WrongAnswer();
+        }
 
       
         StartCoroutine(NextTask(dragged));

@@ -42,8 +42,10 @@ public class Game1 : GameAbstract
     [SerializeField] private Arrangement[] arrangements;
 
     [SerializeField] private GameObject _gameCanvas;
+    [SerializeField] private AudioClip _clip;
     public override void Enter()
     {
+        SoundManager.Instance.PlayGameMusic();
         gameManager.SetCurGameCanvas(_gameCanvas, this);
         _ballScript = _ball.GetComponent<Ball>();
         G1BotTrigger._botHit += ResetAfterFail;
@@ -56,19 +58,23 @@ public class Game1 : GameAbstract
 
     public override void Execute()
     {
+
         TimeCalc(); 
     }
 
 
     public override void Exit()
     {
+        G1BotTrigger._botHit -= ResetAfterFail;
+        Cup.addPoints -= AddScore;
+        SoundManager.Instance.PlayMenuMusic();
         _ball.transform.position = _currentBallPos;
         _ballScript.ResetBall();
     }
 
     void AddScore()
     {
-        
+        SoundManager.Instance.PlaySFX(_clip);
         _score += 10;
         _scoreText.text = _score.ToString();
         _ballScript.ResetBall();
