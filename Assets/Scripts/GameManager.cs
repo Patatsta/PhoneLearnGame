@@ -119,7 +119,7 @@ public class GameManager : MonoBehaviour
     {
         _currentGameCanvas.SetActive(false);
         _Canvases[9].SetActive(true);
-        _endScoreText.text = score.ToString();
+        _endScoreText.text = "Score " + score.ToString();
 
         int tmpHighScore = 0;
         int gameindex = 0;
@@ -145,7 +145,7 @@ public class GameManager : MonoBehaviour
         }
       
    
-        _highScoreText.text = _loginScript.GetHighscores(gameindex).ToString();
+        _highScoreText.text = "Highscore " + _loginScript.GetHighscores(gameindex).ToString();
 
         ChangeState(_gameEmpty);
     }
